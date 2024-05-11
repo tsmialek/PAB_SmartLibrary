@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SmartLibrary.Contracts\SmartLibrary.Contracts.csproj" />
+    <ProjectReference Include="..\SmartLibrary.Domain\SmartLibrary.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
