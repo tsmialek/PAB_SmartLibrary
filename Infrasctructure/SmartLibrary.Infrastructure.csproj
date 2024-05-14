@@ -8,8 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SmartLibrary.Application\SmartLibrary.Application.csproj" />
-    <ProjectReference Include="..\SmartLibrary.Contracts\SmartLibrary.Contracts.csproj" />
-    <ProjectReference Include="..\SmartLibrary.Domain\SmartLibrary.Domain.csproj" />
   </ItemGroup>
 
 </Project>

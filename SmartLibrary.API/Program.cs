@@ -1,3 +1,5 @@
+using SmartLibrary.Application;
+using SmartLibrary.Infrastructure;
 
 namespace SmartLibrary.API
 {
@@ -7,12 +9,16 @@ namespace SmartLibrary.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            {
+                // Add services to the container.
+                builder.Services
+                    .AddApplication()
+                    .AddInfrastructure();
+                builder.Services.AddControllers();
+                // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+                builder.Services.AddEndpointsApiExplorer();
+                builder.Services.AddSwaggerGen();
+            }
 
             var app = builder.Build();
 
@@ -23,14 +29,12 @@ namespace SmartLibrary.API
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
-
-            app.UseAuthorization();
-
-
-            app.MapControllers();
-
-            app.Run();
+            {
+                app.UseHttpsRedirection();
+                app.UseAuthorization();
+                app.MapControllers();
+                app.Run();
+            }
         }
     }
 }

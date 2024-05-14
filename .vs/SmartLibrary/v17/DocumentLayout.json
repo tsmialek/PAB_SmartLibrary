@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\Projekty\\SmartLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|d:\\projekty\\smartlibrary\\smartlibrary.api\\smartlibrary.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|solutionrelative:smartlibrary.api\\smartlibrary.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|d:\\projekty\\smartlibrary\\smartlibrary.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|solutionrelative:smartlibrary.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\smartlibrary.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\smartlibrary.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2ACB613B-53D2-4C3C-A1F3-F9900829233C}|Infrasctructure\\SmartLibrary.Infrastructure.csproj|d:\\projekty\\smartlibrary\\infrasctructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACB613B-53D2-4C3C-A1F3-F9900829233C}|Infrasctructure\\SmartLibrary.Infrastructure.csproj|solutionrelative:infrasctructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27194613-581B-48DA-8BFB-E81A04A02EE6}|SmartLibrary.Domain\\SmartLibrary.Domain.csproj|d:\\projekty\\smartlibrary\\smartlibrary.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27194613-581B-48DA-8BFB-E81A04A02EE6}|SmartLibrary.Domain\\SmartLibrary.Domain.csproj|solutionrelative:smartlibrary.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\services\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\services\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ACB613B-53D2-4C3C-A1F3-F9900829233C}|Infrasctructure\\Infrasctructure.csproj|d:\\projekty\\smartlibrary\\infrasctructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACB613B-53D2-4C3C-A1F3-F9900829233C}|Infrasctructure\\Infrasctructure.csproj|solutionrelative:infrasctructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|d:\\projekty\\smartlibrary\\smartlibrary.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|solutionrelative:smartlibrary.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBA66DD-0838-4E34-A182-8C0BB1B32B74}|SmartLibrary.Contracts\\SmartLibrary.Contracts.csproj|d:\\projekty\\smartlibrary\\smartlibrary.contracts\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBA66DD-0838-4E34-A182-8C0BB1B32B74}|SmartLibrary.Contracts\\SmartLibrary.Contracts.csproj|solutionrelative:smartlibrary.contracts\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\services\\authentication\\authenticationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\services\\authentication\\authenticationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SmartLibrary.API",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\SmartLibrary.API.csproj",
-              "RelativeDocumentMoniker": "SmartLibrary.API\\SmartLibrary.API.csproj",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\SmartLibrary.API.csproj*",
-              "RelativeToolTip": "SmartLibrary.API\\SmartLibrary.API.csproj*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-11T14:50:19.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SmartLibrary.Application",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\SmartLibrary.Application.csproj",
-              "RelativeDocumentMoniker": "SmartLibrary.Application\\SmartLibrary.Application.csproj",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\SmartLibrary.Application.csproj*",
-              "RelativeToolTip": "SmartLibrary.Application\\SmartLibrary.Application.csproj*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-11T14:43:41.707Z",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\Infrasctructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrasctructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\Infrasctructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrasctructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T21:30:12.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "SmartLibrary.Domain\\Class1.cs",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Domain\\Class1.cs",
-              "RelativeToolTip": "SmartLibrary.Domain\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "SmartLibrary.Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T14:32:49.718Z",
+              "WhenOpened": "2024-05-14T21:25:28.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "SmartLibrary.Application\\Class1.cs",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Class1.cs",
-              "RelativeToolTip": "SmartLibrary.Application\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Program.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.API\\Program.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Program.cs",
+              "RelativeToolTip": "SmartLibrary.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T14:32:23.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\Infrasctructure\\Class1.cs",
-              "RelativeDocumentMoniker": "Infrasctructure\\Class1.cs",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\Infrasctructure\\Class1.cs",
-              "RelativeToolTip": "Infrasctructure\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T14:31:52.58Z",
+              "WhenOpened": "2024-05-14T21:21:08.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Contracts\\Class1.cs",
-              "RelativeDocumentMoniker": "SmartLibrary.Contracts\\Class1.cs",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Contracts\\Class1.cs",
-              "RelativeToolTip": "SmartLibrary.Contracts\\Class1.cs",
+              "Title": "AuthenticationResult.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Authentication\\AuthenticationResult.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.Application\\Services\\Authentication\\AuthenticationResult.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Authentication\\AuthenticationResult.cs",
+              "RelativeToolTip": "SmartLibrary.Application\\Services\\Authentication\\AuthenticationResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T14:31:19.873Z",
+              "WhenOpened": "2024-05-14T21:06:17.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Authentication\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.Application\\Services\\Authentication\\AuthenticationService.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Authentication\\AuthenticationService.cs",
+              "RelativeToolTip": "SmartLibrary.Application\\Services\\Authentication\\AuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:18:35.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.API\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "SmartLibrary.API\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwBIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T15:16:10.917Z",
               "EditorCaption": ""
             }
           ]
