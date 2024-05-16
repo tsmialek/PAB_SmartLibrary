@@ -30,13 +30,10 @@ namespace SmartLibrary.Application.Services.Authentication
             }
 
             // 3. Create JWT token
-            var token = _jwtTokenGenerator.GenerateToken(user.Id, user.FirstName, user.LastName);
+            var token = _jwtTokenGenerator.GenerateToken(user);
 
             return new AuthenticationResult(
-                user.Id,
-                user.FirstName,
-                user.LastName,
-                user.Email,
+                user,
                 token);
         }
 
@@ -59,13 +56,10 @@ namespace SmartLibrary.Application.Services.Authentication
 
             _userRepository.Add(user);
             // 3. Generate token
-            var token = _jwtTokenGenerator.GenerateToken(user.Id, firstName, lastName);
+            var token = _jwtTokenGenerator.GenerateToken(user);
 
             return new AuthenticationResult(
-                Guid.NewGuid(),
-                firstName,
-                lastName,
-                email,
+                user,
                 token);
         }
     }

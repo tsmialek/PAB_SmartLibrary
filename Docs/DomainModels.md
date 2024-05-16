@@ -4,7 +4,7 @@
 
 ```json
 {
-  "id": guid,
+  "id": (new guid),
   "firstName": "Tomek",
   "lastName": "Smialek",
   "email": "tomek@wsei.pl",
