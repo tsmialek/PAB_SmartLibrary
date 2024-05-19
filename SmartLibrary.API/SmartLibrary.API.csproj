@@ -18,4 +18,8 @@
     <ProjectReference Include="..\SmartLibrary.Contracts\SmartLibrary.Contracts.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\Errors\" />
+  </ItemGroup>
+
 </Project>

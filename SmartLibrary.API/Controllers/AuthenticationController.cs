@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SmartLibrary.API.Filters;
 using SmartLibrary.Application.Services.Authentication;
 using SmartLibrary.Contracts.Authentication;
@@ -7,6 +8,7 @@ namespace SmartLibrary.API.Controllers
 {
     [Route("auth")]
     [ApiController]
+    [AllowAnonymous]
     public class AuthenticationController : ControllerBase
     {
         private readonly IAuthenticationService _authenticationService;

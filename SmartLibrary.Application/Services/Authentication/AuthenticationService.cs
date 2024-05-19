@@ -1,4 +1,5 @@
-﻿using SmartLibrary.Application.Common.Interfaces.Authentication;
+﻿using SmartLibrary.Application.Common.Error;
+using SmartLibrary.Application.Common.Interfaces.Authentication;
 using SmartLibrary.Application.Common.Interfaces.Persistance;
 using SmartLibrary.Domain.Entities;
 
@@ -20,7 +21,7 @@ namespace SmartLibrary.Application.Services.Authentication
             // 1. Validate user exists
             if (_userRepository.GetUserByEmail(email) is not User user)
             {
-                throw new Exception("User with given email does not exist");
+                throw new NonExistingUserException();
             }
 
             // 2. Validate password
@@ -42,7 +43,7 @@ namespace SmartLibrary.Application.Services.Authentication
             // 1. Validate the user doesn't exist
             if (_userRepository.GetUserByEmail(email) is not null)
             {
-                throw new Exception("User with given email already exists");
+                throw new DuplicateEmailException();
             }
 
             // 2. Create user (generate unique id)
