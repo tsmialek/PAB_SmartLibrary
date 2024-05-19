@@ -1,3 +1,4 @@
+using SmartLibrary.API.Filters;
 using SmartLibrary.Application;
 using SmartLibrary.Infrastructure;
 
@@ -13,6 +14,7 @@ namespace SmartLibrary.API
                 builder.Services
                     .AddApplication()
                     .AddInfrastructure(builder.Configuration);
+                //builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>());
                 builder.Services.AddControllers();
                 builder.Services.AddEndpointsApiExplorer();
                 builder.Services.AddSwaggerGen();
@@ -28,6 +30,8 @@ namespace SmartLibrary.API
             }
 
             {
+                //app.UseMiddleware<ErrorHandlingMiddleware>();
+                app.UseExceptionHandler("/error");
                 app.UseHttpsRedirection();
                 app.UseAuthorization();
                 app.MapControllers();

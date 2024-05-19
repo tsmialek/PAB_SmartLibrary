@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SmartLibrary.API.Filters;
 using SmartLibrary.Application.Services.Authentication;
 using SmartLibrary.Contracts.Authentication;
 
