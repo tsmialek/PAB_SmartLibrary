@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Projekty\\SmartLibrary\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2ACB613B-53D2-4C3C-A1F3-F9900829233C}|Infrasctructure\\SmartLibrary.Infrastructure.csproj|d:\\projekty\\smartlibrary\\infrasctructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACB613B-53D2-4C3C-A1F3-F9900829233C}|Infrasctructure\\SmartLibrary.Infrastructure.csproj|solutionrelative:infrasctructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACB613B-53D2-4C3C-A1F3-F9900829233C}|Infrasctructure\\SmartLibrary.Infrastructure.csproj|d:\\projekty\\smartlibrary\\infrasctructure\\persistance\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACB613B-53D2-4C3C-A1F3-F9900829233C}|Infrasctructure\\SmartLibrary.Infrastructure.csproj|solutionrelative:infrasctructure\\persistance\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|d:\\projekty\\smartlibrary\\smartlibrary.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|solutionrelative:smartlibrary.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|d:\\projekty\\smartlibrary\\smartlibrary.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|solutionrelative:smartlibrary.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|d:\\projekty\\smartlibrary\\smartlibrary.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|solutionrelative:smartlibrary.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ACB613B-53D2-4C3C-A1F3-F9900829233C}|Infrasctructure\\SmartLibrary.Infrastructure.csproj|d:\\projekty\\smartlibrary\\infrasctructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACB613B-53D2-4C3C-A1F3-F9900829233C}|Infrasctructure\\SmartLibrary.Infrastructure.csproj|solutionrelative:infrasctructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2ACB613B-53D2-4C3C-A1F3-F9900829233C}|Infrasctructure\\SmartLibrary.Infrastructure.csproj|d:\\projekty\\smartlibrary\\infrasctructure\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 228,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\Infrasctructure\\Persistance\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrasctructure\\Persistance\\UserRepository.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\Infrasctructure\\Persistance\\UserRepository.cs",
+              "RelativeToolTip": "Infrasctructure\\Persistance\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T13:50:45.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.API\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "SmartLibrary.API\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T13:41:24.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\Infrasctructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrasctructure\\DependencyInjection.cs",
@@ -47,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "JwtTokenGenerator.cs",
               "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\Infrasctructure\\Authentication\\JwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "Infrasctructure\\Authentication\\JwtTokenGenerator.cs",
@@ -60,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Program.cs",
               "RelativeDocumentMoniker": "SmartLibrary.API\\Program.cs",
@@ -73,20 +107,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BooksController.cs",
               "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "SmartLibrary.API\\Controllers\\BooksController.cs",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Controllers\\BooksController.cs*",
-              "RelativeToolTip": "SmartLibrary.API\\Controllers\\BooksController.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "SmartLibrary.API\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T12:59:47.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Authentication\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "SmartLibrary.Application\\Services\\Authentication\\AuthenticationService.cs",
