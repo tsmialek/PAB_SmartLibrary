@@ -1,41 +1,53 @@
-﻿using SmartLibrary.Application.Common.Interfaces.Persistance;
+﻿using Microsoft.EntityFrameworkCore;
+using SmartLibrary.Application.Common.Interfaces.Persistance;
 using SmartLibrary.Domain.Entities;
 
 namespace SmartLibrary.Infrastructure.Persistance
 {
     public class RoleRepository : IRoleRepository
     {
-        private static readonly List<Role> _roles = new();
+        private readonly ApplicationDbContext _context;
+
+        public RoleRepository(ApplicationDbContext context)
+        {
+            _context = context;
+        }
 
         public IEnumerable<Role> GetAll()
         {
-            return _roles;
+            return _context.Roles.Include(r => r.Users).ToList();
         }
 
         public Role GetById(Guid id)
         {
-            return _roles.SingleOrDefault(r => r.Id == id);
+            return _context.Roles.Include(r => r.Users).SingleOrDefault(r => r.Id == id);
         }
 
         public Role GetByName(string name)
         {
-            return _roles.SingleOrDefault(r => r.Name == name);
+            return _context.Roles.Include(r => r.Users).SingleOrDefault(r => r.Name == name);
         }
 
         public void Add(Role role)
         {
-            _roles.Add(role);
+            _context.Roles.Add(role);
+            _context.SaveChanges();
         }
 
         public void Update(Role role)
         {
-            _roles[_roles.IndexOf(role)] = role;
+            _context.Roles.Update(role);
+            _context.SaveChanges();
         }
 
         public void Delete(Guid id)
         {
-            var role = GetById(id);
-            _roles.Remove(role);
+            var role = _context.Roles.Find(id);
+            if (role != null)
+            {
+                _context.Roles.Remove(role);
+                _context.SaveChanges();
+            }
         }
     }
 }

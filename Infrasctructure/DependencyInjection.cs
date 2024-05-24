@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
@@ -20,8 +21,10 @@ namespace SmartLibrary.Infrastructure
             Microsoft.Extensions.Configuration.ConfigurationManager configuration)
         {
             services.AddAuth(configuration);
+            services.AddDbContext(configuration.GetConnectionString("DefaultConnection"));
             services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IRoleRepository, RoleRepository>();
 
             return services;
         }
@@ -47,6 +50,12 @@ namespace SmartLibrary.Infrastructure
 
                 });
 
+            return services;
+        }
+
+        public static IServiceCollection AddDbContext(this IServiceCollection services, string connectionString)
+        {
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
             return services;
         }
     }

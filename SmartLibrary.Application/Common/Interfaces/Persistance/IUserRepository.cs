@@ -9,7 +9,12 @@ namespace SmartLibrary.Application.Common.Interfaces.Persistance
 {
     public interface IUserRepository
     {
-        User? GetUserByEmail(string email);
         void Add(User user);
+        User? GetUserByEmail(string email);
+        User GetByName(string name);
+        IEnumerable<User> GetAll();
+        User GetById(Guid id);
+        void Update(User user);
+        void Delete(Guid id);
     }
 }

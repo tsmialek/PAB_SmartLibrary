@@ -9,6 +9,7 @@ namespace SmartLibrary.Application.Services.Authentication
     {
         private readonly IJwtTokenGenerator _jwtTokenGenerator;
         private readonly IUserRepository _userRepository;
+        private readonly IRoleRepository _roleRepository;
 
         public AuthenticationService(IJwtTokenGenerator jwtTokenGenerator, IUserRepository userRepository)
         {
@@ -55,7 +56,15 @@ namespace SmartLibrary.Application.Services.Authentication
                 Password = password
             };
 
+            // 4. Add role to user
+            var userRole = _roleRepository.GetByName("User");
+            if (userRole is not null)
+            {
+                user.Roles.Add(userRole);
+            }
+
             _userRepository.Add(user);
+
             // 3. Generate token
             var token = _jwtTokenGenerator.GenerateToken(user);
 

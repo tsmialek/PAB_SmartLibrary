@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SmartLibrary.Application.Common.Error;
-using System.Reflection.Metadata.Ecma335;
 
 namespace SmartLibrary.API.Controllers
 {
