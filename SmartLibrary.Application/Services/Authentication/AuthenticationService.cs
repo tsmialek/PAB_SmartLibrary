@@ -11,10 +11,11 @@ namespace SmartLibrary.Application.Services.Authentication
         private readonly IUserRepository _userRepository;
         private readonly IRoleRepository _roleRepository;
 
-        public AuthenticationService(IJwtTokenGenerator jwtTokenGenerator, IUserRepository userRepository)
+        public AuthenticationService(IJwtTokenGenerator jwtTokenGenerator, IUserRepository userRepository, IRoleRepository roleRepository)
         {
             _jwtTokenGenerator = jwtTokenGenerator;
             _userRepository = userRepository;
+            _roleRepository = roleRepository;
         }
 
         public AuthenticationResult Login(string email, string password)
