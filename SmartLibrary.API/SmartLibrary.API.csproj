@@ -17,9 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Infrasctructure\SmartLibrary.Infrastructure.csproj" />
     <ProjectReference Include="..\SmartLibrary.Application\SmartLibrary.Application.csproj" />
     <ProjectReference Include="..\SmartLibrary.Contracts\SmartLibrary.Contracts.csproj" />
+    <ProjectReference Include="..\SmartLibrary.Infrastructure\SmartLibrary.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
