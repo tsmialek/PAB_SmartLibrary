@@ -23,8 +23,9 @@ namespace SmartLibrary.Infrastructure
             services.AddAuth(configuration);
             services.AddDbContext(configuration.GetConnectionString("DefaultConnection"));
             services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
-            services.AddScoped<IUserRepository, BookRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IRoleRepository, RoleRepository>();
+            services.AddScoped<IBookRepository, BookRepository>();
 
             return services;
         }
