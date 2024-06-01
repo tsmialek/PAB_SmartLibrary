@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace SmartLibrary.Application.Common.Error
+namespace SmartLibrary.Application.Common.Error.Authentication
 {
     public class DuplicateEmailException : Exception, IServiceException
     {
