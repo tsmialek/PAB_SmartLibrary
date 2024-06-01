@@ -60,6 +60,7 @@ namespace SmartLibrary.API.Controllers
             return Ok(bookResponse);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public IActionResult AddBook(AddBookRequest request)
         {
@@ -84,6 +85,7 @@ namespace SmartLibrary.API.Controllers
             return Ok(bookResponse);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public IActionResult DeleteBook(Guid id)
         {
