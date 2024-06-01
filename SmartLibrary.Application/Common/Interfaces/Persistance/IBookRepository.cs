@@ -5,9 +5,10 @@ namespace SmartLibrary.Application.Common.Interfaces.Persistance
     public interface IBookRepository
     {
         IEnumerable<Book> GetAll();
-        Book GetById(int id);
+        Book GetById(Guid id);
+        Book GetByName(string name);
         void Add(Book book);
         void Update(Book book);
-        void Delete(int id);
+        void Delete(Guid id);
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using SmartLibrary.Application.Services.Authentication;
+using SmartLibrary.Application.Services.BookMenagement;
 
 namespace SmartLibrary.Application
 {
@@ -8,6 +9,7 @@ namespace SmartLibrary.Application
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddScoped<IAuthenticationService, AuthenticationService>();
+            services.AddScoped<IBookService, BookService>();
             return services;
         }
     }

@@ -17,9 +17,14 @@ namespace SmartLibrary.Infrastructure.Persistance
             return _context.Books.ToList();
         }
 
-        public Book GetById(int id)
+        public Book GetById(Guid id)
         {
             return _context.Books.Find(id);
+        }
+
+        public Book GetByName(string name)
+        {
+            return _context.Books.FirstOrDefault(x => x.Title == name);
         }
 
         public void Add(Book book)
@@ -34,7 +39,7 @@ namespace SmartLibrary.Infrastructure.Persistance
             _context.SaveChanges();
         }
 
-        public void Delete(int id)
+        public void Delete(Guid id)
         {
             var book = _context.Books.Find(id);
             if (book != null)
