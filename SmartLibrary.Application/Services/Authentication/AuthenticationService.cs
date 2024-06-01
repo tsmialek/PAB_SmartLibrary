@@ -1,4 +1,4 @@
-﻿using SmartLibrary.Application.Common.Error;
+﻿using SmartLibrary.Application.Common.Error.Authentication;
 using SmartLibrary.Application.Common.Interfaces.Authentication;
 using SmartLibrary.Application.Common.Interfaces.Persistance;
 using SmartLibrary.Domain.Entities;
@@ -58,6 +58,7 @@ namespace SmartLibrary.Application.Services.Authentication
             };
 
             // 4. Add role to user
+            // new user default role is User
             var userRole = _roleRepository.GetByName("User");
             if (userRole is not null)
             {

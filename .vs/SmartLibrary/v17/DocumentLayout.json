@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "D:\\Projekty\\SmartLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CF8E267-E0DC-4946-B2AA-633266664EF6}|SmartLibrary.Infrastructure\\SmartLibrary.Infrastructure.csproj|d:\\projekty\\smartlibrary\\smartlibrary.infrastructure\\persistance\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CF8E267-E0DC-4946-B2AA-633266664EF6}|SmartLibrary.Infrastructure\\SmartLibrary.Infrastructure.csproj|solutionrelative:smartlibrary.infrastructure\\persistance\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\services\\book\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\services\\book\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CF8E267-E0DC-4946-B2AA-633266664EF6}|SmartLibrary.Infrastructure\\SmartLibrary.Infrastructure.csproj|d:\\projekty\\smartlibrary\\smartlibrary.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CF8E267-E0DC-4946-B2AA-633266664EF6}|SmartLibrary.Infrastructure\\SmartLibrary.Infrastructure.csproj|solutionrelative:smartlibrary.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\services\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\services\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CF8E267-E0DC-4946-B2AA-633266664EF6}|SmartLibrary.Infrastructure\\SmartLibrary.Infrastructure.csproj|d:\\projekty\\smartlibrary\\smartlibrary.infrastructure\\persistance\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CF8E267-E0DC-4946-B2AA-633266664EF6}|SmartLibrary.Infrastructure\\SmartLibrary.Infrastructure.csproj|solutionrelative:smartlibrary.infrastructure\\persistance\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\services\\book\\bookresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\services\\book\\bookresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CF8E267-E0DC-4946-B2AA-633266664EF6}|SmartLibrary.Infrastructure\\SmartLibrary.Infrastructure.csproj|d:\\projekty\\smartlibrary\\smartlibrary.infrastructure\\persistance\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CF8E267-E0DC-4946-B2AA-633266664EF6}|SmartLibrary.Infrastructure\\SmartLibrary.Infrastructure.csproj|solutionrelative:smartlibrary.infrastructure\\persistance\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\services\\book\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\services\\book\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27194613-581B-48DA-8BFB-E81A04A02EE6}|SmartLibrary.Domain\\SmartLibrary.Domain.csproj|d:\\projekty\\smartlibrary\\smartlibrary.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27194613-581B-48DA-8BFB-E81A04A02EE6}|SmartLibrary.Domain\\SmartLibrary.Domain.csproj|solutionrelative:smartlibrary.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\common\\error\\book\\booknotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\common\\error\\book\\booknotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\common\\interfaces\\persistance\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\common\\interfaces\\persistance\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\common\\error\\authentication\\nonexistinguserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\common\\error\\authentication\\nonexistinguserexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\common\\error\\authentication\\duplicateemailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\common\\error\\authentication\\duplicateemailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|d:\\projekty\\smartlibrary\\smartlibrary.application\\common\\error\\iserviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F969EBBB-0A01-4536-BAD4-9AF704CDCFBD}|SmartLibrary.Application\\SmartLibrary.Application.csproj|solutionrelative:smartlibrary.application\\common\\error\\iserviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|d:\\projekty\\smartlibrary\\smartlibrary.api\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|solutionrelative:smartlibrary.api\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|d:\\projekty\\smartlibrary\\smartlibrary.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FBAC70F-1155-4755-8CB9-F1CC6F762550}|SmartLibrary.API\\SmartLibrary.API.csproj|solutionrelative:smartlibrary.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBA66DD-0838-4E34-A182-8C0BB1B32B74}|SmartLibrary.Contracts\\SmartLibrary.Contracts.csproj|d:\\projekty\\smartlibrary\\smartlibrary.contracts\\book\\addbookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBA66DD-0838-4E34-A182-8C0BB1B32B74}|SmartLibrary.Contracts\\SmartLibrary.Contracts.csproj|solutionrelative:smartlibrary.contracts\\book\\addbookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +54,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 228,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SmartLibrary.Infrastructure\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SmartLibrary.Infrastructure\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T19:11:34.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Infrastructure\\Persistance\\BookRepository.cs",
-              "RelativeDocumentMoniker": "SmartLibrary.Infrastructure\\Persistance\\BookRepository.cs",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Infrastructure\\Persistance\\BookRepository.cs",
-              "RelativeToolTip": "SmartLibrary.Infrastructure\\Persistance\\BookRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Book\\IBookService.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.Application\\Services\\Book\\IBookService.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Book\\IBookService.cs",
+              "RelativeToolTip": "SmartLibrary.Application\\Services\\Book\\IBookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T19:09:09.563Z",
+              "WhenOpened": "2024-05-26T22:06:48.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Infrastructure\\Persistance\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "SmartLibrary.Infrastructure\\Persistance\\RoleRepository.cs",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Infrastructure\\Persistance\\RoleRepository.cs",
-              "RelativeToolTip": "SmartLibrary.Infrastructure\\Persistance\\RoleRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAkAAAA",
+              "Title": "BookResult.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Book\\BookResult.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.Application\\Services\\Book\\BookResult.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Book\\BookResult.cs",
+              "RelativeToolTip": "SmartLibrary.Application\\Services\\Book\\BookResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T19:05:12.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T22:06:40.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Domain\\Entities\\Role.cs",
-              "RelativeDocumentMoniker": "SmartLibrary.Domain\\Entities\\Role.cs",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Domain\\Entities\\Role.cs",
-              "RelativeToolTip": "SmartLibrary.Domain\\Entities\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "NonExistingUserException.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Common\\Error\\Authentication\\NonExistingUserException.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.Application\\Common\\Error\\Authentication\\NonExistingUserException.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Common\\Error\\Authentication\\NonExistingUserException.cs",
+              "RelativeToolTip": "SmartLibrary.Application\\Common\\Error\\Authentication\\NonExistingUserException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T19:03:59.567Z",
+              "WhenOpened": "2024-05-26T22:06:21.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DuplicateEmailException.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Common\\Error\\Authentication\\DuplicateEmailException.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.Application\\Common\\Error\\Authentication\\DuplicateEmailException.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Common\\Error\\Authentication\\DuplicateEmailException.cs",
+              "RelativeToolTip": "SmartLibrary.Application\\Common\\Error\\Authentication\\DuplicateEmailException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T22:06:19.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IServiceException.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Common\\Error\\IServiceException.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.Application\\Common\\Error\\IServiceException.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Common\\Error\\IServiceException.cs",
+              "RelativeToolTip": "SmartLibrary.Application\\Common\\Error\\IServiceException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T22:01:39.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorsController.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Controllers\\ErrorsController.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.API\\Controllers\\ErrorsController.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Controllers\\ErrorsController.cs",
+              "RelativeToolTip": "SmartLibrary.API\\Controllers\\ErrorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T22:00:00.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Authentication\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.Application\\Services\\Authentication\\AuthenticationService.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Authentication\\AuthenticationService.cs",
+              "RelativeToolTip": "SmartLibrary.Application\\Services\\Authentication\\AuthenticationService.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAswA0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:22:03.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Infrastructure\\Persistance\\UserRepository.cs",
-              "RelativeDocumentMoniker": "SmartLibrary.Infrastructure\\Persistance\\UserRepository.cs",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Infrastructure\\Persistance\\UserRepository.cs",
-              "RelativeToolTip": "SmartLibrary.Infrastructure\\Persistance\\UserRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Title": "BookService.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Book\\BookService.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.Application\\Services\\Book\\BookService.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Services\\Book\\BookService.cs",
+              "RelativeToolTip": "SmartLibrary.Application\\Services\\Book\\BookService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T19:01:32.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T21:21:03.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Common\\Interfaces\\Persistance\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "SmartLibrary.Application\\Common\\Interfaces\\Persistance\\IUserRepository.cs",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Common\\Interfaces\\Persistance\\IUserRepository.cs",
-              "RelativeToolTip": "SmartLibrary.Application\\Common\\Interfaces\\Persistance\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "BookNotFoundException.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Common\\Error\\Book\\BookNotFoundException.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.Application\\Common\\Error\\Book\\BookNotFoundException.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Application\\Common\\Error\\Book\\BookNotFoundException.cs",
+              "RelativeToolTip": "SmartLibrary.Application\\Common\\Error\\Book\\BookNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T19:00:57.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T21:20:12.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
+              "Title": "AddBookRequest.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Contracts\\Book\\AddBookRequest.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.Contracts\\Book\\AddBookRequest.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.Contracts\\Book\\AddBookRequest.cs",
+              "RelativeToolTip": "SmartLibrary.Contracts\\Book\\AddBookRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T20:14:56.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "BooksController.cs",
               "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "SmartLibrary.API\\Controllers\\BooksController.cs",
               "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.API\\Controllers\\BooksController.cs",
               "RelativeToolTip": "SmartLibrary.API\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAANAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAADAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:47:30.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T19:58:51.637Z"
             }
           ]
         }
