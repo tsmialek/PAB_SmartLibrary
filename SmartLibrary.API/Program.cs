@@ -1,4 +1,4 @@
-using SmartLibrary.API.Filters;
+using SmartLibrary.API.Middleware;
 using SmartLibrary.Application;
 using SmartLibrary.Infrastructure;
 
@@ -30,11 +30,11 @@ namespace SmartLibrary.API
             }
 
             {
-                //app.UseMiddleware<ErrorHandlingMiddleware>();
                 app.UseExceptionHandler("/error");
                 app.UseHttpsRedirection();
                 app.UseAuthentication();
                 app.UseAuthorization();
+                app.UseMiddleware<SecurityHeadersMiddleware>();
                 app.MapControllers();
                 app.Run();
             }
