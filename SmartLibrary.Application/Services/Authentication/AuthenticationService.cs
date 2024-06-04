@@ -29,7 +29,7 @@ namespace SmartLibrary.Application.Services.Authentication
             // 2. Validate password
             if (user.Password != password)
             {
-                throw new Exception("Invalid password");
+                throw new InvalidCredentialsException();    
             }
 
             // 3. Create JWT token
