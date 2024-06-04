@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartLibrary.Domain", "Smar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartLibrary.Infrastructure", "SmartLibrary.Infrastructure\SmartLibrary.Infrastructure.csproj", "{6CF8E267-E0DC-4946-B2AA-633266664EF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLibrary.Tests", "SmartLibrary.Tests\SmartLibrary.Tests.csproj", "{4E081AB3-6158-49AC-A72A-99231BC296DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6CF8E267-E0DC-4946-B2AA-633266664EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CF8E267-E0DC-4946-B2AA-633266664EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CF8E267-E0DC-4946-B2AA-633266664EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E081AB3-6158-49AC-A72A-99231BC296DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E081AB3-6158-49AC-A72A-99231BC296DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E081AB3-6158-49AC-A72A-99231BC296DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E081AB3-6158-49AC-A72A-99231BC296DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
