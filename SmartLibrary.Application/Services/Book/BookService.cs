@@ -13,7 +13,7 @@ namespace SmartLibrary.Application.Services.BookMenagement
             _bookRepository = bookRepository;
         }
 
-        public BookResult AddBook(string title, string author, string isbn, string? description = null, int? pageCount = null, DateOnly? date = null)
+        public Book AddBook(string title, string author, string isbn, string? description = null, int? pageCount = null, DateOnly? date = null)
         {
             var book = new Book()
             {
@@ -27,10 +27,10 @@ namespace SmartLibrary.Application.Services.BookMenagement
 
             _bookRepository.Add(book);
 
-            return new BookResult(book);
+            return book;
         }
 
-        public BookResult DeleteBook(Guid Id)
+        public Book DeleteBook(Guid Id)
         {
             if (_bookRepository.GetById(Id) is not Book book)
             {
@@ -39,17 +39,17 @@ namespace SmartLibrary.Application.Services.BookMenagement
 
             _bookRepository.Delete(Id);
 
-            return new BookResult(book);
+            return book;
         }
 
-        public BookResult GetBookById(Guid id)
+        public Book GetBookById(Guid id)
         {
             if (_bookRepository.GetById(id) is not Book book)
             {
                 throw new BookNotFoundException();
             }
 
-            return new BookResult(book);
+            return book;
         }
 
         public List<Book> GetBooks()
@@ -59,14 +59,14 @@ namespace SmartLibrary.Application.Services.BookMenagement
             return books;
         }
 
-        public BookResult GetBookByName(string name)
+        public Book GetBookByName(string name)
         {
             if (_bookRepository.GetByName(name) is not Book book)
             {
                 throw new BookNotFoundException();
             }
 
-            return new BookResult(book);
+            return book;
         }
     }
 }

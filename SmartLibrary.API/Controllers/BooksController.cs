@@ -31,13 +31,13 @@ namespace SmartLibrary.API.Controllers
             var result = _bookService.GetBookById(id);
             var bookResponse = new BookResponse
             (
-                result.Book.Id,
-                result.Book.Title,
-                result.Book.Author,
-                result.Book.ISBN,
-                result.Book.Description,
-                result.Book.PageCount,
-                result.Book.Date);
+                result.Id,
+                result.Title,
+                result.Author,
+                result.ISBN,
+                result.Description,
+                result.PageCount,
+                result.Date);
 
             return Ok(bookResponse); ;
         }
@@ -49,13 +49,13 @@ namespace SmartLibrary.API.Controllers
 
             var bookResponse = new BookResponse
             (
-                result.Book.Id,
-                result.Book.Title,
-                result.Book.Author,
-                result.Book.ISBN,
-                result.Book.Description,
-                result.Book.PageCount,
-                result.Book.Date);
+                result.Id,
+                result.Title,
+                result.Author,
+                result.ISBN,
+                result.Description,
+                result.PageCount,
+                result.Date);
 
             return Ok(bookResponse);
         }
@@ -74,13 +74,13 @@ namespace SmartLibrary.API.Controllers
 
             var bookResponse = new BookResponse
             (
-                bookResult.Book.Id,
-                bookResult.Book.Title,
-                bookResult.Book.Author,
-                bookResult.Book.ISBN,
-                bookResult.Book.Description,
-                bookResult.Book.PageCount,
-                bookResult.Book.Date);
+                bookResult.Id,
+                bookResult.Title,
+                bookResult.Author,
+                bookResult.ISBN,
+                bookResult.Description,
+                bookResult.PageCount,
+                bookResult.Date);
 
             return Ok(bookResponse);
         }
@@ -93,13 +93,13 @@ namespace SmartLibrary.API.Controllers
 
             var bookResponse = new BookResponse
             (
-                result.Book.Id,
-                result.Book.Title,
-                result.Book.Author,
-                result.Book.ISBN,
-                result.Book.Description,
-                result.Book.PageCount,
-                result.Book.Date);
+                result.Id,
+                result.Title,
+                result.Author,
+                result.ISBN,
+                result.Description,
+                result.PageCount,
+                result.Date);
 
             return Ok(bookResponse);
         }
