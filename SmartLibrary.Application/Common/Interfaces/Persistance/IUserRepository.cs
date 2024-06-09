@@ -10,7 +10,7 @@ namespace SmartLibrary.Application.Common.Interfaces.Persistance
     public interface IUserRepository
     {
         void Add(User user);
-        User? GetUserByEmail(string email);
+        User? GetByEmail(string email);
         User GetByName(string name);
         IEnumerable<User> GetAll();
         User GetById(Guid id);
