@@ -1,10 +1,7 @@
-﻿using GraphQL;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SmartLibrary.Application.Services.RoleServices;
-using SmartLibrary.Contracts.Authentication;
 using SmartLibrary.Contracts.Role;
-using System.Diagnostics;
 
 namespace SmartLibrary.API.Controllers
 {
