@@ -6,7 +6,7 @@ using SmartLibrary.Contracts.Book;
 
 namespace SmartLibrary.API.Controllers
 {
-    [Route("[controller]")]
+    [Route("books")]
     [ApiController]
     [Authorize]
     public class BooksController : ControllerBase
