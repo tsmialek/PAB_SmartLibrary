@@ -48,7 +48,7 @@ namespace SmartLibrary.API
                 app.UseHttpsRedirection();
                 app.UseAuthentication();
                 app.UseAuthorization();
-                app.UseMiddleware<SecurityHeadersMiddleware>();
+                //app.UseMiddleware<SecurityHeadersMiddleware>();
 
                 // GraphQL
                 app.UseGraphQL<ISchema>();
