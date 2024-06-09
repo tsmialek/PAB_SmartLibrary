@@ -29,7 +29,7 @@ namespace SmartLibrary.Tests.Services
             // Arrange
             var email = "test@example.com";
             var existingUser = new User { Email = email };
-            _userRepositoryMock.Setup(repo => repo.GetUserByEmail(email)).Returns(existingUser);
+            _userRepositoryMock.Setup(repo => repo.GetByEmail(email)).Returns(existingUser);
 
             // Act
             var act = () => _authenticationService.Register("FirstName", "LastName", email, "Password");
@@ -43,7 +43,7 @@ namespace SmartLibrary.Tests.Services
         {
             // Arrange 
             var email = "newUser@example.com";
-            _userRepositoryMock.Setup(repo => repo.GetUserByEmail(email)).Returns((User)null);
+            _userRepositoryMock.Setup(repo => repo.GetByEmail(email)).Returns((User)null);
             var newUser = new User { Email = email };
             _userRepositoryMock.Setup(repo => repo.Add(It.IsAny<User>())).Callback<User>(user => newUser = user);
             var token = "jwt_token";
@@ -63,7 +63,7 @@ namespace SmartLibrary.Tests.Services
         {
             // Arrange
             var email = "nonExistingUser@example.com";
-            _userRepositoryMock.Setup(repo => repo.GetUserByEmail(email)).Returns((User)null);
+            _userRepositoryMock.Setup(repo => repo.GetByEmail(email)).Returns((User)null);
 
             // Act
             var result = () => _authenticationService.Login(email, "Password");
@@ -78,7 +78,7 @@ namespace SmartLibrary.Tests.Services
             // Arrange
             var email = "user@example.com";
             var user = new User { Email = email, Password = "correctPassword" };
-            _userRepositoryMock.Setup(repo => repo.GetUserByEmail(email)).Returns(user);
+            _userRepositoryMock.Setup(repo => repo.GetByEmail(email)).Returns(user);
 
             // Act
             var result = () => _authenticationService.Login(email, "Password");
@@ -94,7 +94,7 @@ namespace SmartLibrary.Tests.Services
             var email = "user@example.com";
             var password = "correctPassword";
             var user = new User { Email = email, Password = password };
-            _userRepositoryMock.Setup(repo => repo.GetUserByEmail(email)).Returns(user);
+            _userRepositoryMock.Setup(repo => repo.GetByEmail(email)).Returns(user);
             var token = "jwt_token";
             _jwtTokenGeneratorMock.Setup(jwt => jwt.GenerateToken(user)).Returns(token);
 

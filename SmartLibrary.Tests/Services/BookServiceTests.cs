@@ -56,7 +56,7 @@ namespace SmartLibrary.Tests.Services
 
             // Assert
             result.Should().NotBeNull();
-            result.Book.Should().Be(book);
+            result.Should().Be(book);
         }
 
         [Fact]
@@ -87,7 +87,7 @@ namespace SmartLibrary.Tests.Services
 
             // Assert
             result.Should().NotBeNull();
-            result.Book.Should().Be(book);
+            result.Should().Be(book);
         }
 
         [Fact]
@@ -117,11 +117,11 @@ namespace SmartLibrary.Tests.Services
 
             // Assert
             result.Should().NotBeNull();
-            result.Book.Should().NotBeNull();
-            result.Book.Id.Should().NotBe(Guid.Empty);
-            result.Book.Title.Should().Be(book.Title);
-            result.Book.Author.Should().Be(book.Author);
-            result.Book.ISBN.Should().Be(book.ISBN);
+            result.Should().NotBeNull();
+            result.Id.Should().NotBe(Guid.Empty);
+            result.Title.Should().Be(book.Title);
+            result.Author.Should().Be(book.Author);
+            result.ISBN.Should().Be(book.ISBN);
         }
 
         [Fact]
@@ -138,7 +138,7 @@ namespace SmartLibrary.Tests.Services
 
             // Assert
             result.Should().NotBeNull();
-            result.Book.Should().Be(book);
+            result.Should().Be(book);
         }
 
         [Fact]
