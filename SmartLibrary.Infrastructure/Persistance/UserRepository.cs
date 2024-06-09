@@ -19,7 +19,7 @@ namespace SmartLibrary.Infrastructure.Persistance
             _context.SaveChanges();
         }
 
-        public User? GetUserByEmail(string email)
+        public User? GetByEmail(string email)
         {
             return _context.Users.Include(u => u.Roles).SingleOrDefault(u => u.Email == email);
         }
