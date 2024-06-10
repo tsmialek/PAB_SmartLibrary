@@ -33,6 +33,7 @@ namespace SmartLibrary.API.Controllers
                 authResult.User.FirstName,
                 authResult.User.LastName,
                 authResult.User.Email,
+                authResult.User.Roles.Select(r => r.Name).ToList(),
                 authResult.Token);
 
             return Ok(response);
@@ -51,6 +52,7 @@ namespace SmartLibrary.API.Controllers
                 authResult.User.FirstName,
                 authResult.User.LastName,
                 authResult.User.Email,
+                authResult.User.Roles.Select(r => r.Name).ToList(),
                 authResult.Token);
 
             return Ok(response);

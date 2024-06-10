@@ -5,6 +5,7 @@
         string FirstName,
         string LastName,
         string Email,
+        List<string> Roles,
         string Token
     );
 }
