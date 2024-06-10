@@ -30,7 +30,7 @@ namespace SmartLibrary.RazorPagesAdmin.Pages.Admin
         public AddUserRoleByIdRequest AddUserRoleById { get; set; }
 
         [TempData]
-        public string ErrorMessage { get; set; }
+        public string ErrorMessage { get; set; } = "";
 
         public async Task<IActionResult> OnGetAsync()
         {

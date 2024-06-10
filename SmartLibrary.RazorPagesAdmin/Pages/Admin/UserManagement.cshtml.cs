@@ -29,7 +29,7 @@ namespace SmartLibrary.RazorPagesAdmin.Pages.Admin
         public string SearchEmail { get; set; }
 
         [TempData]
-        public string ErrorMessage { get; set; }
+        public string ErrorMessage { get; set; } = "";
 
         public async Task<IActionResult> OnGetAsync()
         {

@@ -14,7 +14,7 @@ namespace SmartLibrary.RazorPagesAdmin.Pages.Admin
         public string UserEmail { get; private set; }
 
         [TempData]
-        public string ErrorMessage { get; set; }
+        public string ErrorMessage { get; set; } = "";
 
         public IActionResult OnGet()
         {

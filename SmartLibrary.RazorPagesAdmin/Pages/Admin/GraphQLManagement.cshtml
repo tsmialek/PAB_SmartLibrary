@@ -1,0 +1,53 @@
+﻿@page
+@model SmartLibrary.RazorPagesAdmin.Pages.Admin.GraphQLManagementModel
+@{
+    ViewData["Title"] = "GraphQL Management";
+}
+
+<h1>Admin Panel</h1>
+
+<p>Welcome, @Model.UserEmail!</p>
+<p>Your roles: @string.Join(", ", Model.UserRoles is null ? "---" : string.Join(", ", Model.UserRoles))</p>
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.ErrorMessage
+    </div>
+}
+
+<form method="post" asp-page-handler="Logout" class="mb-2">
+    <button type="submit" class="btn btn-primary">Logout</button>
+</form>
+
+
+<ul>
+    <li><a asp-page="BooksManagement">Books Management</a></li>
+    <li><a asp-page="UserManagement">User Management</a></li>
+    <li><a asp-page="RoleManagement">Role Management</a></li>
+    <li><a asp-page="GraphQLManagement">Graph QL client</a></li>
+</ul>
+<hr />
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.ErrorMessage
+    </div>
+}
+
+<h2>Execute GraphQL Query</h2>
+
+<form method="post" asp-page-handler="ExecuteQuery">
+    <div class="form-group">
+        <label for="Query">GraphQL Query</label>
+        <textarea id="Query" name="Query" class="form-control" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Execute Query</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Result))
+{
+    <h2>Result</h2>
+    <pre>@Model.Result</pre>
+}
