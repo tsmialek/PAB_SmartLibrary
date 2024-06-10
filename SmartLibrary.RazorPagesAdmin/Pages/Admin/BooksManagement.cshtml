@@ -1,4 +1,108 @@
 ﻿@page
 @model SmartLibrary.RazorPagesAdmin.Pages.Admin.BooksManagementModel
 @{
+    ViewData["Title"] = "Admin Panel";
 }
+
+<h1>Admin Panel</h1>
+
+<p>Welcome, @Model.UserEmail!</p>
+
+<p>Your roles: @string.Join(", ", Model.UserRoles is null ? "---" : string.Join(", ", Model.UserRoles))</p>
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.ErrorMessage
+    </div>
+}
+
+<form method="post" asp-page-handler="Logout" class="mb-2">
+    <button type="submit" class="btn btn-primary">Logout</button>
+</form>
+
+<ul>
+    <li><a asp-page="BooksManagement">Books Management</a></li>
+    <li><a asp-page="UserManagement">User Management</a></li>
+    <li><a asp-page="RoleManagement">Role Management</a></li>
+</ul>
+
+<hr />
+
+<h3>Books List</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th>Description</th>
+            <th>Page Count</th>
+            <th>Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model.Books)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.ISBN</td>
+                <td>@book.Description</td>
+                <td>@book.PageCount</td>
+                <td>@book.Date?.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <form method="post" asp-page-handler="DeleteBook">
+                        <input type="hidden" name="id" value="@book.Id" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+
+<h3>Add Book</h3>
+
+<form method="post" asp-page-handler="AddBook">
+    <div class="form-group">
+        <label for="Title">Title</label>
+        <input type="text" id="Title" name="Input.Title" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Author">Author</label>
+        <input type="text" id="Author" name="Input.Author" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="ISBN">ISBN</label>
+        <input type="text" id="ISBN" name="Input.ISBN" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <textarea id="Description" name="Input.Description" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="PageCount">Page Count</label>
+        <input type="number" id="PageCount" name="Input.PageCount" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Date">Date</label>
+        <input type="date" id="Date" name="Input.Date" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Add Book</button>
+</form>
+<hr />
+
+<h3>Search Books</h3>
+
+<form method="post" asp-page-handler="SearchBooks">
+    <div class="form-group">
+        <label for="SearchTitle">Title</label>
+        <input type="text" id="SearchTitle" name="SearchTitle" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>

@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "D:\\Projekty\\SmartLibrary\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|d:\\projekty\\smartlibrary\\smartlibrary.razorpagesadmin\\pages\\admin\\rolemanagement.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|solutionrelative:smartlibrary.razorpagesadmin\\pages\\admin\\rolemanagement.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|d:\\projekty\\smartlibrary\\smartlibrary.razorpagesadmin\\pages\\admin\\rolemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|solutionrelative:smartlibrary.razorpagesadmin\\pages\\admin\\rolemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|d:\\projekty\\smartlibrary\\smartlibrary.razorpagesadmin\\pages\\admin\\usermanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|solutionrelative:smartlibrary.razorpagesadmin\\pages\\admin\\usermanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|d:\\projekty\\smartlibrary\\smartlibrary.razorpagesadmin\\pages\\admin\\booksmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|solutionrelative:smartlibrary.razorpagesadmin\\pages\\admin\\booksmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|d:\\projekty\\smartlibrary\\smartlibrary.razorpagesadmin\\pages\\admin\\adminpanel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|solutionrelative:smartlibrary.razorpagesadmin\\pages\\admin\\adminpanel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|d:\\projekty\\smartlibrary\\smartlibrary.razorpagesadmin\\pages\\admin\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|solutionrelative:smartlibrary.razorpagesadmin\\pages\\admin\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|d:\\projekty\\smartlibrary\\smartlibrary.razorpagesadmin\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|solutionrelative:smartlibrary.razorpagesadmin\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|d:\\projekty\\smartlibrary\\smartlibrary.razorpagesadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|solutionrelative:smartlibrary.razorpagesadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|d:\\projekty\\smartlibrary\\smartlibrary.razorpagesadmin\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|solutionrelative:smartlibrary.razorpagesadmin\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|d:\\projekty\\smartlibrary\\smartlibrary.razorpagesadmin\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A25C4AB7-4640-40A5-A514-0DC38D6C453B}|SmartLibrary.RazorPagesAdmin\\SmartLibrary.RazorPagesAdmin.csproj|solutionrelative:smartlibrary.razorpagesadmin\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 247,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RoleManagement.cshtml",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\RoleManagement.cshtml",
-              "RelativeDocumentMoniker": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\RoleManagement.cshtml",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\RoleManagement.cshtml",
-              "RelativeToolTip": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\RoleManagement.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T17:05:35.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Program.cs",
               "RelativeDocumentMoniker": "SmartLibrary.RazorPagesAdmin\\Program.cs",
               "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Program.cs",
               "RelativeToolTip": "SmartLibrary.RazorPagesAdmin\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA8AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T19:35:04.029Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserManagement.cshtml",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\UserManagement.cshtml",
-              "RelativeDocumentMoniker": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\UserManagement.cshtml",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\UserManagement.cshtml",
-              "RelativeToolTip": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\UserManagement.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "RoleManagement.cshtml",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\RoleManagement.cshtml",
+              "RelativeDocumentMoniker": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\RoleManagement.cshtml",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\RoleManagement.cshtml",
+              "RelativeToolTip": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\RoleManagement.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T17:05:21.238Z",
+              "WhenOpened": "2024-06-10T18:01:01.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleManagement.cshtml.cs",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\RoleManagement.cshtml.cs",
+              "RelativeDocumentMoniker": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\RoleManagement.cshtml.cs",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\RoleManagement.cshtml.cs",
+              "RelativeToolTip": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\RoleManagement.cshtml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:00:25.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SmartLibrary.RazorPagesAdmin\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SmartLibrary.RazorPagesAdmin\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T17:33:27.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BooksManagement.cshtml",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\BooksManagement.cshtml",
-              "RelativeDocumentMoniker": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\BooksManagement.cshtml",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\BooksManagement.cshtml",
-              "RelativeToolTip": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\BooksManagement.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T17:05:01.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Login.cshtml",
-              "RelativeDocumentMoniker": "SmartLibrary.RazorPagesAdmin\\Pages\\Login.cshtml",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Login.cshtml",
-              "RelativeToolTip": "SmartLibrary.RazorPagesAdmin\\Pages\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T13:04:56.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "SmartLibrary.RazorPagesAdmin\\Pages\\Login.cshtml.cs",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Login.cshtml.cs",
-              "RelativeToolTip": "SmartLibrary.RazorPagesAdmin\\Pages\\Login.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T13:04:26.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminPanel.cshtml",
-              "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\AdminPanel.cshtml",
-              "RelativeDocumentMoniker": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\AdminPanel.cshtml",
-              "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\AdminPanel.cshtml",
-              "RelativeToolTip": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\AdminPanel.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T12:48:27.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AdminPanel.cshtml.cs",
               "DocumentMoniker": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\AdminPanel.cshtml.cs",
               "RelativeDocumentMoniker": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\AdminPanel.cshtml.cs",
               "ToolTip": "D:\\Projekty\\SmartLibrary\\SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\AdminPanel.cshtml.cs",
               "RelativeToolTip": "SmartLibrary.RazorPagesAdmin\\Pages\\Admin\\AdminPanel.cshtml.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAiwCAAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T12:53:08.442Z",
+              "WhenOpened": "2024-06-10T17:26:57.804Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,92 @@
 ﻿@page
 @model SmartLibrary.RazorPagesAdmin.Pages.Admin.RoleManagementModel
 @{
+    ViewData["Title"] = "Role Management";
 }
+
+<h1>Admin Panel</h1>
+
+<p>Welcome, @Model.UserEmail!</p>
+
+<p>Your roles: @string.Join(", ", Model.UserRoles is null ? "---" : string.Join(", ", Model.UserRoles))</p>
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.ErrorMessage
+    </div>
+}
+
+<form method="post" asp-page-handler="Logout" class="mb-2">
+    <button type="submit" class="btn btn-primary">Logout</button>
+</form>
+
+<ul>
+    <li><a asp-page="BooksManagement">Books Management</a></li>
+    <li><a asp-page="UserManagement">User Management</a></li>
+    <li><a asp-page="RoleManagement">Role Management</a></li>
+</ul>
+
+<hr />
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.ErrorMessage
+    </div>
+}
+
+<h2>Assign Role to User by Email</h2>
+
+<form method="post" asp-page-handler="AddUserRoleByEmail">
+    <div class="form-group">
+        <label for="UserEmail">User Email</label>
+        <input type="email" id="UserEmail" name="AddUserRoleByEmailRequest.UserEmail" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="NewUserRoleName">New Role Name</label>
+        <input type="text" id="NewUserRoleName" name="AddUserRoleByEmailRequest.NewUserRoleName" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Assign Role</button>
+</form>
+
+<h2>Assign Role to User by ID</h2>
+
+<form method="post" asp-page-handler="AddUserRoleById">
+    <div class="form-group">
+        <label for="UserId">User ID</label>
+        <input type="text" id="UserId" name="AddUserRoleByIdRequest.UserId" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="NewUserRoleId">New Role ID</label>
+        <input type="text" id="NewUserRoleId" name="AddUserRoleByIdRequest.NewUserRoleId" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Assign Role</button>
+</form>
+
+<h2>Role List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Users</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var role in Model.Roles)
+        {
+            <tr>
+                <td>@role.Name</td>
+                <td>
+                    <ul>
+                        @foreach (var user in role.Users)
+                        {
+                            <li>@user.Email</li>
+                        }
+                    </ul>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

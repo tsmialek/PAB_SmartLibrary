@@ -1,4 +1,94 @@
 ﻿@page
 @model SmartLibrary.RazorPagesAdmin.Pages.Admin.UserManagementModel
 @{
+    ViewData["Title"] = "User Management";
 }
+
+<h1>Admin Panel</h1>
+
+<p>Welcome, @Model.UserEmail!</p>
+<p>Your roles: @string.Join(", ", Model.UserRoles is null ? "---" : string.Join(", ", Model.UserRoles))</p>
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.ErrorMessage
+    </div>
+}
+
+<form method="post" asp-page-handler="Logout" class="mb-2">
+    <button type="submit" class="btn btn-primary">Logout</button>
+</form>
+
+
+<ul>
+    <li><a asp-page="BooksManagement">Books Management</a></li>
+    <li><a asp-page="UserManagement">User Management</a></li>
+    <li><a asp-page="RoleManagement">Role Management</a></li>
+</ul>
+<hr />
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.ErrorMessage
+    </div>
+}
+
+<h2>Register User</h2>
+
+<form method="post" asp-page-handler="RegisterUser">
+    <div class="form-group">
+        <label for="FirstName">First Name</label>
+        <input type="text" id="FirstName" name="Input.FirstName" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="LastName">Last Name</label>
+        <input type="text" id="LastName" name="Input.LastName" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Input.Email" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Password">Password</label>
+        <input type="password" id="Password" name="Input.Password" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Register User</button>
+</form>
+<hr />
+
+<h2>Search User by Email</h2>
+
+<form method="post" asp-page-handler="SearchUserByEmail">
+    <div class="form-group">
+        <label for="SearchEmail">Email</label>
+        <input type="email" id="SearchEmail" name="SearchEmail" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+<hr />
+
+<h2>User List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Roles</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>@user.FirstName</td>
+                <td>@user.LastName</td>
+                <td>@user.Email</td>
+                <td>@string.Join(", ", user.Roles.Select(r => r.Name))</td>
+            </tr>
+        }
+    </tbody>
+</table>
